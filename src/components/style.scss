@@ -1,0 +1,75 @@
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 5px solid #333;  /* Добавляем бордер */
+  border-radius: 10px;  /* Скругляем углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Добавляем тень для эффекта глубины */
+  background-color: white; /* Цвет фона canvas */
+}
+
+.hero-score {
+  text-align: center;
+}
+
+.hero-header {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.red-hero {
+  background-color: #e74c3c;
+}
+
+.blue-hero {
+  background-color: #3498db;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+
+  input[type="color"],
+  input[type="range"] {
+    width: 100%;
+  }
+}
